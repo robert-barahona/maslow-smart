@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{21D1320A-2E36-4B69-A164-EB32873F18F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ADCN</RootNamespace>
+    <AssemblyName>ADCN</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MaslowSmart_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Atencion.cs" />
+    <Compile Include="Clases\DesarrolloCognitivo.cs" />
+    <Compile Include="Clases\Juego.cs" />
+    <Compile Include="Clases\Memoria.cs" />
+    <Compile Include="Clases\Proceso.cs" />
+    <Compile Include="frmAyuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAyuda.Designer.cs">
+      <DependentUpon>frmAyuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguracion.Designer.cs">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinDeJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinDeJuego.Designer.cs">
+      <DependentUpon>frmFinDeJuego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJuegoAtencion1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJuegoAtencion1.Designer.cs">
+      <DependentUpon>frmJuegoAtencion1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJuegoAtencion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJuegoAtencion2.Designer.cs">
+      <DependentUpon>frmJuegoAtencion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJuegoAtencion3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJuegoAtencion3.Designer.cs">
+      <DependentUpon>frmJuegoAtencion3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJuegoMemoria2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJuegoMemoria2.Designer.cs">
+      <DependentUpon>frmJuegoMemoria2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJuegoMemoria1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJuegoMemoria1.Designer.cs">
+      <DependentUpon>frmJuegoMemoria1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJuegoMemoria3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJuegoMemoria3.Designer.cs">
+      <DependentUpon>frmJuegoMemoria3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuEdades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuEdades.Designer.cs">
+      <DependentUpon>frmMenuEdades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaseDeNivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaseDeNivel.Designer.cs">
+      <DependentUpon>frmPaseDeNivel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPista.Designer.cs">
+      <DependentUpon>frmPista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRendirse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRendirse.Designer.cs">
+      <DependentUpon>frmRendirse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Res.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Res.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Res.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Res.en-US.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAyuda.resx">
+      <DependentUpon>frmAyuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguracion.resx">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinDeJuego.resx">
+      <DependentUpon>frmFinDeJuego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJuegoAtencion1.resx">
+      <DependentUpon>frmJuegoAtencion1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJuegoAtencion2.resx">
+      <DependentUpon>frmJuegoAtencion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJuegoAtencion3.resx">
+      <DependentUpon>frmJuegoAtencion3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJuegoMemoria2.resx">
+      <DependentUpon>frmJuegoMemoria2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJuegoMemoria1.resx">
+      <DependentUpon>frmJuegoMemoria1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJuegoMemoria3.resx">
+      <DependentUpon>frmJuegoMemoria3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuEdades.resx">
+      <DependentUpon>frmMenuEdades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaseDeNivel.resx">
+      <DependentUpon>frmPaseDeNivel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPista.resx">
+      <DependentUpon>frmPista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRendirse.resx">
+      <DependentUpon>frmRendirse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Res.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Res.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_maslow_school.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoMaslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuraciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mitad del mundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iglesia Sangolqui.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parque vicente leon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iglesia de Salcedo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ambato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baños.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chiquintad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuenca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gualaceo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guayaquil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Milagro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Villamil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yaguachi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alausí.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chambo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guamote.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Riobamba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bolívar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portoviejo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jipijapa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Montecristi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Catamayo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Macará.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paltas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saraguro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gonzanamá.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guaranda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chimbo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\San Miguel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chillanes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Echeandía.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caluma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy_gif2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy_gif3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy_gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy_gif31.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confetti_gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_fin_juego.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_fin_juego1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pase_nivel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_over_gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_rendirse2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pase_nivel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pase_nivel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_rendirse3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pase_nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juego_a1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juego_a2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juego_a3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juego_m1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juego_m2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juego_m3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fin_de_juego2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pista.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pista2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_naranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_rosa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_verde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_rosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_ayuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pregunta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_off_disable1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_on_disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MaslowSmart.ico" />
+    <Content Include="MaslowSmart_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

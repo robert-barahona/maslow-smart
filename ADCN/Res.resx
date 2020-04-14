@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bienvenida" xml:space="preserve">
+    <value>Te damos la Bienvenida</value>
+  </data>
+  <data name="Juegos_de_Atencion" xml:space="preserve">
+    <value>Juegos de Atención</value>
+  </data>
+  <data name="Juegos_de_Memoria" xml:space="preserve">
+    <value>Juegos de Memoria</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Tema" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Sonido" xml:space="preserve">
+    <value>Sonido</value>
+  </data>
+  <data name="Activar" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="Desactivar" xml:space="preserve">
+    <value>Desactivar</value>
+  </data>
+  <data name="Nivel1" xml:space="preserve">
+    <value>Nivel 1</value>
+  </data>
+  <data name="Encuentra_la_letra_P" xml:space="preserve">
+    <value>Encuentra la letra 'P'</value>
+  </data>
+  <data name="Nivel2" xml:space="preserve">
+    <value>Nivel 2</value>
+  </data>
+  <data name="Encuentra_las_letras_E_y_P" xml:space="preserve">
+    <value>Encuentra las letras 'E' y 'P'</value>
+  </data>
+  <data name="Nivel3" xml:space="preserve">
+    <value>Nivel 3</value>
+  </data>
+  <data name="Encuentra_las_letras_I_G_y_S" xml:space="preserve">
+    <value>Encuentra las letras 'I', 'G' y 'S'</value>
+  </data>
+  <data name="Nivel4" xml:space="preserve">
+    <value>Nivel 4</value>
+  </data>
+  <data name="Encuentra_las_letras_T_K_8" xml:space="preserve">
+    <value>Encuentra las letras 'T', 'K' y el número '8'</value>
+  </data>
+  <data name="Elegir_la_letra_correcta" xml:space="preserve">
+    <value>Juego: "Elegir la letra correcta"</value>
+  </data>
+  <data name="Donde_esta_pikachu" xml:space="preserve">
+    <value>Juego: "¿Dónde está Pikachu?"</value>
+  </data>
+  <data name="Tiempo" xml:space="preserve">
+    <value>Tiempo:</value>
+  </data>
+  <data name="Comodin" xml:space="preserve">
+    <value>Comodín</value>
+  </data>
+  <data name="Rendirse" xml:space="preserve">
+    <value>Rendirse</value>
+  </data>
+  <data name="Significado" xml:space="preserve">
+    <value>Significado</value>
+  </data>
+  <data name="Color_del_Texto" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="Encabezado_juego_atencion3" xml:space="preserve">
+    <value>¿Coincide el significado de arriba con el color del texto?</value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>SI</value>
+  </data>
+  <data name="Nivel5" xml:space="preserve">
+    <value>Nivel 5</value>
+  </data>
+  <data name="Nivel6" xml:space="preserve">
+    <value>Nivel 6</value>
+  </data>
+  <data name="Colores_y_Significados" xml:space="preserve">
+    <value>Juego: "Colores y Significados"</value>
+  </data>
+  <data name="Tablas_de_multiplicar" xml:space="preserve">
+    <value>Juego: "Tablas de multiplicar"</value>
+  </data>
+  <data name="Provincias_del_Ecuador" xml:space="preserve">
+    <value>Juego: "Provincias del Ecuador"</value>
+  </data>
+  <data name="Habia_una_vez" xml:space="preserve">
+    <value>Juego: "Había una vez"</value>
+  </data>
+  <data name="Historia1_ballena" xml:space="preserve">
+    <value>Había una vez,una ballena llamada Elena,que era gorda y buena,y nada por los mares,como una sirena</value>
+  </data>
+  <data name="Historia2_jirafa" xml:space="preserve">
+    <value>Había una vez,una jirafa llamada Rafaela,que usaba las gafas de su abuelo,porque desde allá arribota,no ve hache ni jota,que creyó que un pino,era un jirafo muy fino</value>
+  </data>
+  <data name="Historia3_gato" xml:space="preserve">
+    <value>Había una vez,un gato llamado Ruperto,que la casa revisa,porque un ratoncito,ronca en la repisa,busca despacito,en todos los rincones,pero el gato dormilón,se durmió en un rincón,y ron ron ron,ronca y ronca don ratón</value>
+  </data>
+  <data name="Objetivo1" xml:space="preserve">
+    <value>Desarrollar la atención selectiva del estudiante, que se trata de la capacidad de concentrarse en la información relevante mientras se ignoran las distracciones irrelevantes.</value>
+  </data>
+  <data name="Objetivo2" xml:space="preserve">
+    <value>Desarrollar la atención del estudiante, haciéndo que se centre únicamente en encontrar a Pikachu en las imágenes que se le va a mostrar.</value>
+  </data>
+  <data name="Objetivo3" xml:space="preserve">
+    <value>Mejorar la habilidad de atención selectiva del estudiante, de manera que al tener varios estímulos, preste atención únicamente a uno en concreto.</value>
+  </data>
+  <data name="Objetivo4" xml:space="preserve">
+    <value>Mejorar el razonamiento cuantitativo y las habilidades de resolución de problemas que son necesarias para tomar decisiones inteligentes, incluidas las que se relacionan con la memoria procedimental.</value>
+  </data>
+  <data name="Objetivo5" xml:space="preserve">
+    <value>Desarrollar la memoria del estudiante, trabajando con sus recuerdos temporales, mediante imágenes representativas. Además se pretende conseguir que el estudiante aprenda acerca de la cultura Ecuatoriana.</value>
+  </data>
+  <data name="Objetivo6" xml:space="preserve">
+    <value>Desarrollar la memoria a corto plazo así como la memoria espacial, haciendo que el estudiante recuerde el orden de las palabras que se le mostrarán en diferentes frases que forman una historia.</value>
+  </data>
+  <data name="Instrucciones1" xml:space="preserve">
+    <value>El juego consta de diferentes niveles, en los cuales, deberás hacer clic únicamente en las letras que se te pide, y al momento en que encuentres todas la letras pedidas, avanzarás de nivel. En caso de que hagas clic en alguna letra que no se te pidió, se te restarán puntos. Recuerda que mientras más rápido acabes, más puntos tendrás.</value>
+  </data>
+  <data name="Instrucciones2" xml:space="preserve">
+    <value>El juego consta de diferentes niveles, en los cuales, habrá un Pikachu escondido entre muchas personas. Debes hacer clic encima de él al momento que lo encuentres, y de esta forma avanzarás al siguiente nivel. En caso de hacer clic en otra parte de la imagen, se te restarán puntos. Recuerda que mientras más rápido acabes, más puntos tendrás.</value>
+  </data>
+  <data name="Instrucciones3" xml:space="preserve">
+    <value>Se te mostrarán dos palabras, tendrás que fijarte en el significado de la palabra de arriba y verificar si coincide con el color de la palabra de abajo. Es decir, si arriba dice 'Azul' y el color de la palabra de abajo es azul también, debes hacer clic en el botón SI, caso contrario, debes hacer clic en NO. Mientras avances de nivel, habrán más colores. Recuerda que mientras más rápido acabes, más puntos tendrás.</value>
+  </data>
+  <data name="Instrucciones4" xml:space="preserve">
+    <value>El juego consta de dos niveles, en los cuales tendrás multiplicaciones aleatorias de dos números. Abajo de la multiplicación se te mostrarán 4 respuestas distintas. Para avanzar a la siguiente operación, deberás hacer clic en la respuesta correcta, caso contrario se te restarán puntos. Recuerda que mientras más rápido acabes, más puntos tendrás.</value>
+  </data>
+  <data name="Instrucciones5" xml:space="preserve">
+    <value>El juego consta de 3 niveles, en los cuales se te mostrarán diferentes imágenes de tres distintas provincias del Ecuador. Debes memorizarlas y hacer clic en \"Listo\", luego se te mostrará una imagen de cada provincia y tu deberás escribir a cuál pertenece.</value>
+  </data>
+  <data name="Instrucciones6" xml:space="preserve">
+    <value>El juego consta de 3 niveles. En los cuales deberás memorizar la frase y hacer clic en 'Siguiente', a continuación deberás escribir la frase que memorizaste. En caso de que hayas escrito correctamente la frase, se te mostrará la siguiente frase de la historia, que también deberás memorizar, y a continuación deberás escribir lo que ya habías escrito pero agregando la nueva frase. Y así hasta que terminarás la historia. Recuerda que mientras más rápido acabes, más puntos tendrás.</value>
+  </data>
+  <data name="Objetivo" xml:space="preserve">
+    <value>Objetivo</value>
+  </data>
+  <data name="Instrucciones" xml:space="preserve">
+    <value>Instrucciones</value>
+  </data>
+  <data name="Ayuda1" xml:space="preserve">
+    <value>Para entrar a los juegos de Atención debe hacer clic en el botón que se encuentra en su izquierda con el nombre "Juegos de Atención".</value>
+  </data>
+  <data name="Ayuda2" xml:space="preserve">
+    <value>Para entrar a los juegos de Memoria debe hacer clic en el botón que se encuentra en su izquierda con el nombre "Juegos de Memoria".</value>
+  </data>
+  <data name="Ayuda3" xml:space="preserve">
+    <value>Para cambiar el tema de la aplicación, debe ingresar a configuración y seleccionar el modo que desea.</value>
+  </data>
+  <data name="Ayuda4" xml:space="preserve">
+    <value>Para activar o desactivar los sonidos de la aplicación, debe ingresar a configuración y elegir la opción que desee.</value>
+  </data>
+  <data name="Ayuda5" xml:space="preserve">
+    <value>Para cambiar el idioma a inglés o español, debe hacer clic en cualquiera de los botones que se encuentra en la parte de abajo del menú.</value>
+  </data>
+  <data name="Ayuda6" xml:space="preserve">
+    <value>Si usted desea abrir el sitio web de Maslow School, usted debe hacer clic en el logo de la institución que se encuentra en la parte superior del menú.</value>
+  </data>
+  <data name="Ayuda" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Configuracion" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="Jugar" xml:space="preserve">
+    <value>Jugar</value>
+  </data>
+  <data name="Comprobar" xml:space="preserve">
+    <value>Comprobar</value>
+  </data>
+  <data name="Listo" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="Siguiente" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="Cual_es_la_respuesta_correcta" xml:space="preserve">
+    <value>¿Cuál es la respuesta correcta?</value>
+  </data>
+  <data name="Memoriza_la_frase_y_haz_clic_en_siguiente" xml:space="preserve">
+    <value>Memoriza la frase y haz clic en Siguiente</value>
+  </data>
+  <data name="Escriba_las_provincias_que_corresponden_a_las_imagenes" xml:space="preserve">
+    <value>Escriba las provincias que corresponden a las imágenes</value>
+  </data>
+  <data name="Avanzar_Nivel_Atencion1" xml:space="preserve">
+    <value>ENCONTRASTE TODAS LAS LETRAS! AVANZAS AL NIVEL</value>
+  </data>
+  <data name="Aceptar" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="Obtuviste" xml:space="preserve">
+    <value>OBTUVISTE</value>
+  </data>
+  <data name="Puntos" xml:space="preserve">
+    <value>PUNTOS, ¿QUÉ QUIERES HACER?</value>
+  </data>
+  <data name="Volver_a_jugar" xml:space="preserve">
+    <value>VOLVER A JUGAR</value>
+  </data>
+  <data name="Ver_video" xml:space="preserve">
+    <value>VER UN VIDEO</value>
+  </data>
+  <data name="Salir" xml:space="preserve">
+    <value>IR AL MENÚ</value>
+  </data>
+  <data name="Fin_del_juego" xml:space="preserve">
+    <value>¡FELICIDADES! HAS ACABADO EL JUEGO</value>
+  </data>
+  <data name="Avanzar_Nivel_Atencion2" xml:space="preserve">
+    <value>¡ENCONTRASTE A PIKACHU! AVANZAS AL NIVEL</value>
+  </data>
+  <data name="Avanzar_Nivel_Atencion3" xml:space="preserve">
+    <value>AVANZAS AL NIVEL</value>
+  </data>
+  <data name="Avanzar_Nivel_Memoria2" xml:space="preserve">
+    <value>TODAS TUS RESPUESTAS SON CORRECTAS! AVANZAS AL NIVEL</value>
+  </data>
+  <data name="Escribe_la_frase" xml:space="preserve">
+    <value>Ahora escribe la frase, continuando con la historia</value>
+  </data>
+  <data name="Avanzar_Nivel_Memoria3_1" xml:space="preserve">
+    <value>¡HAS COMPLETADO EL NIVEL FÁCIL! AVANZAS AL NIVEL</value>
+  </data>
+  <data name="Avanzar_Nivel_Memoria3_2" xml:space="preserve">
+    <value>¡HAS COMPLETADO EL NIVEL DIFÍCIL! AVANZAS AL NIVEL</value>
+  </data>
+  <data name="Mensaje_Rendirse" xml:space="preserve">
+    <value>NO HAS LOGRADO COMPLETAR EL JUEGO</value>
+  </data>
+  <data name="Empezar" xml:space="preserve">
+    <value>EMPEZAR</value>
+  </data>
+  <data name="Recuerda_que_la_edad" xml:space="preserve">
+    <value>Recuerda que la edad que hemos puesto a cada juego, es la que recomendamos, pero puedes elegir el que quieras.</value>
+  </data>
+  <data name="10_Años" xml:space="preserve">
+    <value>10 Años</value>
+  </data>
+  <data name="11_Años" xml:space="preserve">
+    <value>11 Años</value>
+  </data>
+  <data name="12_Años" xml:space="preserve">
+    <value>12 Años</value>
+  </data>
+  <data name="Que_edad_tienes" xml:space="preserve">
+    <value>¿Qué edad tienes?</value>
+  </data>
+  <data name="Pista_a1_1" xml:space="preserve">
+    <value>Fíjate bien, aún te faltan </value>
+  </data>
+  <data name="Pista_a1_2" xml:space="preserve">
+    <value> letras por encontrar</value>
+  </data>
+  <data name="Pista_a2_1" xml:space="preserve">
+    <value>A Pikachu le gustan los animales</value>
+  </data>
+  <data name="Pista_a2_2" xml:space="preserve">
+    <value>Está cerca de un chico con un saco a rayas</value>
+  </data>
+  <data name="Pista_a2_3" xml:space="preserve">
+    <value>A Pikachu no le gusta el agua</value>
+  </data>
+  <data name="Pista_a2_4" xml:space="preserve">
+    <value>A su derecha hay un hombre de verde tomando el sol</value>
+  </data>
+  <data name="Pista_a2_5" xml:space="preserve">
+    <value>Hay gente cerca de él que está corriendo</value>
+  </data>
+  <data name="Pista_a2_6" xml:space="preserve">
+    <value>El color Rojo es la clave</value>
+  </data>
+  <data name="Pista_a3" xml:space="preserve">
+    <value>No importa lo que diga el Texto de abajo, únicamente debes fijarte en su COLOR y verificar si coincide con el significado</value>
+  </data>
+  <data name="Pista_m2" xml:space="preserve">
+    <value>Las provincias que se te mostraron anteriormente fueron: </value>
+  </data>
+  <data name="Pista_m3" xml:space="preserve">
+    <value>La historia era: </value>
+  </data>
+  <data name="Desarrolladores" xml:space="preserve">
+    <value>Desarrolladores: </value>
+  </data>
+  <data name="Universidad" xml:space="preserve">
+    <value>Universidad de las Fuerzas Armada ESPE sede Latacunga</value>
+  </data>
+  <data name="Carrera" xml:space="preserve">
+    <value>Ingeniería de Software</value>
+  </data>
+  <data name="Pista_a1_3" xml:space="preserve">
+    <value> letra por encontrar</value>
+  </data>
+  <data name="1_numero" xml:space="preserve">
+    <value> ó 1 número</value>
+  </data>
+  <data name="Numeros_por_encontrar" xml:space="preserve">
+    <value> números por encontrar</value>
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value> y </value>
+  </data>
+  <data name="Pista_a1_4" xml:space="preserve">
+    <value> número por encontrar</value>
+  </data>
+  <data name="Salir_del_juego" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="Pista_a1_1_1" xml:space="preserve">
+    <value>Fíjate bien, aún te falta </value>
+  </data>
+  <data name="Pistas_disponibles" xml:space="preserve">
+    <value>Las pistas estarán disponibles después de que completes la primera frase</value>
+  </data>
+</root>
